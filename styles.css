@@ -1,0 +1,115 @@
+/* Estilos básicos para o portfólio. */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+main {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header {
+  background-color: #1855c7;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+section {
+  padding: 20px;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+address {
+  background-color: #eee;
+  color: #333;
+  width: 350px;
+  text-align: left;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+a {
+  color: #1855c7;
+  font-weight: bold;
+}
+
+form {
+  /* width: 35%; */
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input:not([type="checkbox"]),
+textarea {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="checkbox"] {
+  margin: 0;
+  margin-right: 0;
+  width: auto;
+}
+
+#newsletter {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  width: auto;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #1855c7;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #0d3a8b;
+}
